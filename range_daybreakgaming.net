@@ -1,0 +1,95 @@
+-----   daybreakgaming.net   -----
+
+
+Host's addresses:
+__________________
+
+daybreakgaming.net.                      3600     IN    A        64.37.171.32
+
+
+Name Servers:
+______________
+
+ns4.daybreakgaming.net.                  3600     IN    A        64.37.132.11
+ns6.daybreakgaming.net.                  3600     IN    A        64.37.175.11
+ns2.daybreakgaming.net.                  3600     IN    A        64.37.129.11
+
+
+Mail (MX) Servers:
+___________________
+
+sdt-mx1.daybreakgames.com.               3600     IN    A        64.37.183.75
+lae-mx2.daybreakgames.com.               3600     IN    A        64.37.129.23
+lae-mx1.daybreakgames.com.               3600     IN    A        64.37.129.21
+sdt-mx2.daybreakgames.com.               3600     IN    A        64.37.183.76
+lae-mx2.daybreakgames.com.               3600     IN    A        64.37.129.23
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for daybreakgaming.net on ns4.daybreakgaming.net ... 
+AXFR record query failed: REFUSED
+
+Trying Zone Transfer for daybreakgaming.net on ns6.daybreakgaming.net ... 
+AXFR record query failed: REFUSED
+
+Trying Zone Transfer for daybreakgaming.net on ns2.daybreakgaming.net ... 
+AXFR record query failed: REFUSED
+
+                                                                                                                                                                                                                                           
+Brute forcing with /usr/share/dnsenum/dns.txt:                                                                                                                                                                                             
+_______________________________________________                                                                                                                                                                                            
+                                                                                                                                                                                                                                           
+ns1.daybreakgaming.net.                  3600     IN    A        64.37.137.11                                                                                                                                                              
+ns2.daybreakgaming.net.                  3600     IN    A        64.37.129.11
+ns3.daybreakgaming.net.                  3600     IN    A        64.37.152.11
+ntp.daybreakgaming.net.                  3600     IN    A        64.37.128.123
+www.daybreakgaming.net.                  3600     IN    A        64.37.171.32
+
+                                                                                                                                                                                                                                           
+daybreakgaming.net class C netranges:                                                                                                                                                                                                      
+______________________________________                                                                                                                                                                                                     
+                                                                                                                                                                                                                                           
+ 64.37.128.0/24                                                                                                                                                                                                                            
+ 64.37.129.0/24
+ 64.37.132.0/24
+ 64.37.137.0/24
+ 64.37.152.0/24
+ 64.37.171.0/24
+ 64.37.175.0/24
+
+                                                                                                                                                                                                                                           
+Performing reverse lookup on 1792 ip addresses:                                                                                                                                                                                            
+________________________________________________                                                                                                                                                                                           
+                                                                                                                                                                                                                                           
+11.129.37.64.in-addr.arpa.               3600     IN    PTR      ns2.daybreakgaming.net.                                                                                                                                                   
+11.132.37.64.in-addr.arpa.               3600     IN    PTR      ns4.daybreakgaming.net.
+150.132.37.64.in-addr.arpa.              3600     IN    PTR      sdr-devcos1-1.daybreakgaming.net.
+151.132.37.64.in-addr.arpa.              3600     IN    PTR      sdr-devcos1-2.daybreakgaming.net.
+152.132.37.64.in-addr.arpa.              3600     IN    PTR      sdr-devcos1-3.daybreakgaming.net.
+11.137.37.64.in-addr.arpa.               3600     IN    PTR      ns1.daybreakgaming.net.
+9.152.37.64.in-addr.arpa.                3600     IN    PTR      sdlab-ops1.daybreakgaming.net.
+67.152.37.64.in-addr.arpa.               3600     IN    PTR      sdlog1.daybreakgaming.net.
+142.152.37.64.in-addr.arpa.              3600     IN    PTR      sdr-gitlab1.daybreakgaming.net.
+192.152.37.64.in-addr.arpa.              3600     IN    PTR      lin-appeng1.daybreakgaming.net.
+193.152.37.64.in-addr.arpa.              3600     IN    PTR      lin-syseng1.daybreakgaming.net.
+11.175.37.64.in-addr.arpa.               3600     IN    PTR      ns6.daybreakgaming.net.
+
+12 results out of 1792 IP addresses.
+
+                                                                                                                                                                                                                                           
+daybreakgaming.net ip blocks:                                                                                                                                                                                                              
+______________________________                                                                                                                                                                                                             
+                                                                                                                                                                                                                                           
+ 64.37.129.11/32                                                                                                                                                                                                                           
+ 64.37.132.11/32
+ 64.37.132.150/31
+ 64.37.132.152/32
+ 64.37.137.11/32
+ 64.37.152.9/32
+ 64.37.152.67/32
+ 64.37.152.142/32
+ 64.37.152.192/31
+ 64.37.175.11/32
