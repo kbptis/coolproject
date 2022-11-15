@@ -1,0 +1,203 @@
+-----   sonynei.net   -----                                                                                                                                                                                                                
+                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                           
+Host's addresses:                                                                                                                                                                                                                          
+__________________                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                           
+sonynei.net.                             300      IN    A        10.211.128.40                                                                                                                                                             
+sonynei.net.                             300      IN    A        10.211.128.39
+sonynei.net.                             300      IN    A        10.211.204.20
+sonynei.net.                             300      IN    A        10.211.204.19
+sonynei.net.                             300      IN    A        10.201.128.23
+sonynei.net.                             300      IN    A        10.201.128.20
+sonynei.net.                             300      IN    A        64.37.182.110
+sonynei.net.                             300      IN    A        43.148.33.75
+sonynei.net.                             300      IN    A        43.148.33.76
+sonynei.net.                             300      IN    A        10.237.92.201
+sonynei.net.                             300      IN    A        10.237.92.203
+sonynei.net.                             300      IN    A        10.237.42.11
+sonynei.net.                             300      IN    A        10.237.42.12
+
+                                                                                                                                                                                                                                           
+Name Servers:                                                                                                                                                                                                                              
+______________                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                           
+ns3.sonynei.net.                         300      IN    A        173.230.208.21                                                                                                                                                            
+a12-65.akam.net.                         89029    IN    A        184.26.160.65
+ns1.sonynei.net.                         300      IN    A        173.230.215.21
+ns4.sonynei.com.                         3600     IN    A        173.230.208.22
+ns2.sonynei.com.                         3600     IN    A        173.230.203.20
+dns1.p05.nsone.net.                      83773    IN    A        198.51.44.5
+dns3.p05.nsone.net.                      86097    IN    A        198.51.44.69
+dns4.p05.nsone.net.                      85108    IN    A        198.51.45.69
+a24-64.akam.net.                         86404    IN    A        2.16.130.64
+dns2.p05.nsone.net.                      79540    IN    A        198.51.45.5
+a3-65.akam.net.                          89759    IN    A        96.7.49.65
+a13-66.akam.net.                         89662    IN    A        2.22.230.66
+a1-22.akam.net.                          90000    IN    A        193.108.91.22
+a2-67.akam.net.                          79441    IN    A        95.100.174.67
+
+                                                                                                                                                                                                                                           
+Mail (MX) Servers:                                                                                                                                                                                                                         
+___________________                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                           
+mx1.sonynei.net.                         300      IN    A        173.230.215.33                                                                                                                                                            
+mx2.sonynei.net.                         300      IN    A        173.230.215.34
+
+                                                                                                                                                                                                                                           
+Trying Zone Transfers and getting Bind Versions:                                                                                                                                                                                           
+_________________________________________________                                                                                                                                                                                          
+                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                           
+Trying Zone Transfer for sonynei.net on ns3.sonynei.net ... 
+AXFR record query failed: NOTAUTH
+
+Trying Zone Transfer for sonynei.net on a12-65.akam.net ... 
+AXFR record query failed: REFUSED
+
+Trying Zone Transfer for sonynei.net on ns1.sonynei.net ... 
+AXFR record query failed: NOTAUTH
+
+Trying Zone Transfer for sonynei.net on ns4.sonynei.com ... 
+AXFR record query failed: NOTAUTH
+
+Trying Zone Transfer for sonynei.net on ns2.sonynei.com ... 
+AXFR record query failed: NOTAUTH
+
+Trying Zone Transfer for sonynei.net on dns1.p05.nsone.net ... 
+AXFR record query failed: NOTIMP
+
+Trying Zone Transfer for sonynei.net on dns3.p05.nsone.net ... 
+AXFR record query failed: NOTIMP
+
+Trying Zone Transfer for sonynei.net on dns4.p05.nsone.net ... 
+AXFR record query failed: NOTIMP
+
+Trying Zone Transfer for sonynei.net on a24-64.akam.net ... 
+AXFR record query failed: REFUSED
+
+Trying Zone Transfer for sonynei.net on dns2.p05.nsone.net ... 
+AXFR record query failed: NOTIMP
+
+Trying Zone Transfer for sonynei.net on a3-65.akam.net ... 
+AXFR record query failed: REFUSED
+
+Trying Zone Transfer for sonynei.net on a13-66.akam.net ... 
+AXFR record query failed: REFUSED
+
+Trying Zone Transfer for sonynei.net on a1-22.akam.net ... 
+AXFR record query failed: REFUSED
+
+Trying Zone Transfer for sonynei.net on a2-67.akam.net ... 
+AXFR record query failed: REFUSED
+
+                                                                                                                                                                                                                                           
+Brute forcing with /usr/share/dnsenum/dns.txt:                                                                                                                                                                                             
+_______________________________________________                                                                                                                                                                                            
+                                                                                                                                                                                                                                           
+dns.sonynei.net.                         300      IN    CNAME    lvc-sys-prdnsm01.sonynei.net.                                                                                                                                             
+lvc-sys-prdnsm01.sonynei.net.            300      IN    A        10.208.50.18
+hermes.sonynei.net.                      300      IN    A        10.208.50.100
+log.sonynei.net.                         300      IN    A        10.211.92.198
+mx1.sonynei.net.                         300      IN    A        173.230.215.33
+mx11.sonynei.net.                        300      IN    A        173.230.196.11
+mx2.sonynei.net.                         300      IN    A        173.230.215.34
+mx3.sonynei.net.                         300      IN    A        173.230.215.35
+ns1.sonynei.net.                         300      IN    A        173.230.215.21
+ns2.sonynei.net.                         300      IN    A        173.230.203.20
+ns3.sonynei.net.                         300      IN    A        173.230.208.21
+www.sonynei.net.                         300      IN    A        64.37.182.110
+
+                                                                                                                                                                                                                                           
+Performing recursion:                                                                                                                                                                                                                      
+______________________                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                           
+ ---- Checking subdomains NS records ----
+
+  Can't perform recursion no NS records.
+
+                                                                                                                                                                                                                                           
+sonynei.net class C netranges:                                                                                                                                                                                                             
+_______________________________                                                                                                                                                                                                            
+                                                                                                                                                                                                                                           
+ 43.148.33.0/24                                                                                                                                                                                                                            
+ 64.37.182.0/24
+ 173.230.196.0/24
+ 173.230.203.0/24
+ 173.230.208.0/24
+ 173.230.215.0/24
+
+                                                                                                                                                                                                                                           
+Performing reverse lookup on 1536 ip addresses:                                                                                                                                                                                            
+________________________________________________                                                                                                                                                                                           
+                                                                                                                                                                                                                                           
+3.33.148.43.in-addr.arpa.                300      IN    PTR      lvs.fwv.c01.net.sonynei.net.                                                                                                                                              
+4.33.148.43.in-addr.arpa.                300      IN    PTR      lvs.oob.c01.net.sonynei.net.
+5.33.148.43.in-addr.arpa.                300      IN    PTR      lvs.oob.n01.net.sonynei.net.
+6.33.148.43.in-addr.arpa.                300      IN    PTR      lvs.oob.p02.net.sonynei.net.
+7.33.148.43.in-addr.arpa.                300      IN    PTR      lvs.oob.p02.net.sonynei.net.
+8.33.148.43.in-addr.arpa.                300      IN    PTR      lvs.oob.p03.net.sonynei.net.
+9.33.148.43.in-addr.arpa.                300      IN    PTR      lvs.oob.p8161-04.net.sonynei.net.
+10.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.oob.p922202-27.net.sonynei.net.
+13.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.oob.n02.net.sonynei.net.
+14.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.space01.net.sonynei.net.
+15.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.space01-oob.net.sonynei.net.
+16.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.swr.c1160-21.net.sonynei.net.
+17.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.swr.c1160-23.net.sonynei.net.
+18.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.swo.c1160-19.net.sonynei.net.
+19.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.swo.c1160-26.net.sonynei.net.
+20.33.148.43.in-addr.arpa.               300      IN    PTR      lvb-sys-prcs01.sonynei.net.
+21.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.gig.p02.net.sonynei.net.
+22.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.gig.p04.net.sonynei.net.
+23.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.oob.p922201-27.net.sonynei.net.
+27.33.148.43.in-addr.arpa.               300      IN    PTR               (
+29.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.swd.c23214-17.net.sonynei.net.
+30.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.swb.p01.net.sonynei.net.
+31.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.swb.p02.net.sonynei.net.
+32.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.cspc.c1101-22.net.sonynei.net.
+33.33.148.43.in-addr.arpa.               300      IN    PTR      lvs-oob-p23214-27.net.sonynei.net.
+34.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.fwv.c23211-33.net.sonynei.net.
+35.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.swb.p04.net.sonynei.net.
+36.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.oob.n23211-22.net.sonynei.net.
+37.33.148.43.in-addr.arpa.               300      IN    PTR               (
+40.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.fws.p01.fxp0.net.sonynei.net.
+41.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.fws.p02.fxp0.net.sonynei.net.
+42.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.sws.p01.net.sonynei.net.
+43.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.sws.p02.net.sonynei.net.
+48.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.oob.c02.net.sonynei.net.
+49.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.oob.c23214-22.net.sonynei.net.
+50.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.oob.p04.net.sonynei.net.
+51.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.fwv.c922202-28.net.sonynei.net.
+52.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.oob.p23212-15.net.sonynei.net.
+54.33.148.43.in-addr.arpa.               300      IN    PTR      lvs.swr.spare.net.sonynei.net.
+70.33.148.43.in-addr.arpa.               300      IN    PTR      lvc-sys-prrsa01.sonynei.net.
+75.33.148.43.in-addr.arpa.               300      IN    PTR      lvcsysprsnedc01.sonynei.net.
+76.33.148.43.in-addr.arpa.               300      IN    PTR      lvcsysprsnedc02.sonynei.net.
+77.33.148.43.in-addr.arpa.               300      IN    PTR      lvp-sneidc03.sonynei.net.
+80.33.148.43.in-addr.arpa.               300      IN    PTR      lvcsnpprmgwts01.sonynei.net.
+131.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prtwmgt01.sonynei.net.
+135.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sys-prsecutil01.sonynei.net.
+140.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prdtripwire01.sonynei.net.
+183.33.148.43.in-addr.arpa.              300      IN    PTR      lvcsecprpvwap02.sonynei.net.
+193.33.148.43.in-addr.arpa.              300      IN    PTR      lvs.fwx.c01.v804.net.sonynei.net.
+194.33.148.43.in-addr.arpa.              300      IN    PTR      lvs.fwx.c02.v804.net.sonynei.net.
+195.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prdlts01.sonynei.net.
+197.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prlc01.sonynei.net.
+198.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prlc04.sonynei.net.
+200.33.148.43.in-addr.arpa.              300      IN    PTR      lv-sec-prdredseal01.sonynei.net.
+201.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prdjump03.sonynei.net.
+202.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prdportal01.sonynei.net.
+204.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prhedge01.sonynei.net.
+205.33.148.43.in-addr.arpa.              300      IN    PTR      lvcsecprpvn01.sonynei.net.
+206.33.148.43.in-addr.arpa.              300      IN    PTR      lvcsecprpv01.sonynei.net.
+213.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prtrpwr01.sonynei.net.
+214.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prtrpwr02.sonynei.net.
+215.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prtrpwr03.sonynei.net.
+216.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prtrpwr04.sonynei.net.
+217.33.148.43.in-addr.arpa.              300      IN    PTR      lvc-sec-prtrpwr05.sonynei.net.
+225.33.148.43.in-addr.arpa.              300      IN    PTR      lvcsecprjump04.sonynei.net.
+233.33.148.43.in-addr.arpa.              300      IN    PTR      lvcsecprfort01.sonynei.net.
+5.182.37.64.in-addr.arpa.                3600     IN    PTR      lae.fwv.p01.net.sonynei.net.
+65.182.37.64.in-addr.arpa.               3600     IN    PTR      origin-www.sonynei.net.
+11.196.230.173.in-addr.arpa.             300      IN    PTR      mx11.sonynei.net.
