@@ -1,4 +1,3 @@
 # COOLPROJECT
-#
 
 Nothing to say
