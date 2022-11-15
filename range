@@ -1,0 +1,115 @@
+Here a full DNS dump
+
+-----
+-----   daybreakgames.com   -----
+
+
+Host's addresses:
+__________________
+
+daybreakgames.com.                       3600     IN    A        64.37.171.63
+
+
+Name Servers:
+______________                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                          
+ns6.daybreakgaming.net.                  3600     IN    A        64.37.175.11                                                                                                                                                             
+ns2.daybreakgaming.net.                  3600     IN    A        64.37.129.11
+ns4.daybreakgaming.net.                  3600     IN    A        64.37.132.11
+
+                                                                                                                                                                                                                                          
+Mail (MX) Servers:                                                                                                                                                                                                                        
+___________________                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                          
+lae-mx2.daybreakgames.com.               3600     IN    A        64.37.129.23                                                                                                                                                             
+sdt-mx1.daybreakgames.com.               3600     IN    A        64.37.183.75
+lae-mx1.daybreakgames.com.               3600     IN    A        64.37.129.21
+lae-mx2.daybreakgames.com.               3600     IN    A        64.37.129.23
+sdt-mx2.daybreakgames.com.               3600     IN    A        64.37.183.76
+
+                                                                                                                                                                                                                                          
+Trying Zone Transfers and getting Bind Versions:                                                                                                                                                                                          
+_________________________________________________                                                                                                                                                                                         
+                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                          
+Trying Zone Transfer for daybreakgames.com on ns6.daybreakgaming.net ... 
+AXFR record query failed: REFUSED
+
+Trying Zone Transfer for daybreakgames.com on ns2.daybreakgaming.net ... 
+AXFR record query failed: REFUSED
+
+Trying Zone Transfer for daybreakgames.com on ns4.daybreakgaming.net ... 
+AXFR record query failed: REFUSED
+
+                                                                                                                                                                                                                                          
+Brute forcing with /usr/share/dnsenum/dns.txt:                                                                                                                                                                                            
+_______________________________________________                                                                                                                                                                                           
+                                                                                                                                                                                                                                          
+census.daybreakgames.com.                1128     IN    A        64.37.171.64                                                                                                                                                             
+forums.daybreakgames.com.                3600     IN    A        69.174.204.36
+hms.daybreakgames.com.                   3600     IN    CNAME    sdr-hms1.daybreakgaming.net.
+sdr-hms1.daybreakgaming.net.             3600     IN    A        64.37.151.37
+issuetracker.daybreakgames.com.          3600     IN    A        13.56.46.81
+kibana.daybreakgames.com.                3600     IN    CNAME    lvslogs-gl1.daybreakgaming.net.
+lvslogs-gl1.daybreakgaming.net.          3600     IN    A        10.100.35.150
+
+portal.daybreakgames.com.                3600     IN    CNAME    lvs-pspw01.daybreakgaming.net.
+lvs-pspw01.daybreakgaming.net.           3600     IN    A        10.100.43.70
+smtp.daybreakgames.com.                  3600     IN    A        64.37.183.11
+test.daybreakgames.com.                  3600     IN    A        64.37.182.21
+vpn.daybreakgames.com.                   3600     IN    CNAME    vip-ext.sdvpn6.daybreakgaming.net.
+vip-ext.sdvpn6.daybreakgaming.net.       3600     IN    A        64.37.144.113
+www.daybreakgames.com.                   3600     IN    A        64.37.171.63
+
+                                                                                                                                                                                                                                           
+daybreakgames.com class C netranges:                                                                                                                                                                                                       
+_____________________________________                                                                                                                                                                                                      
+                                                                                                                                                                                                                                           
+ 13.56.46.0/24                                                                                                                                                                                                                             
+ 64.37.129.0/24
+ 64.37.171.0/24
+ 64.37.182.0/24
+ 64.37.183.0/24
+ 69.174.204.0/24
+
+                                                                                                                                                                                                                                           
+Performing reverse lookup on 1536 ip addresses:                                                                                                                                                                                            
+________________________________________________                                                                                                                                                                                           
+                                                                                                                                                                                                                                           
+21.129.37.64.in-addr.arpa.               3600     IN    PTR      lae-mx1.daybreakgames.com.                                                                                                                                                
+23.129.37.64.in-addr.arpa.               3600     IN    PTR      lae-mx2.daybreakgames.com.
+63.171.37.64.in-addr.arpa.               3600     IN    PTR      www.daybreakgames.com.
+64.171.37.64.in-addr.arpa.               3600     IN    PTR      census.daybreakgames.com.
+65.171.37.64.in-addr.arpa.               3600     IN    PTR      auth.daybreakgames.com.
+66.171.37.64.in-addr.arpa.               3600     IN    PTR      lpj.daybreakgames.com.
+67.171.37.64.in-addr.arpa.               3600     IN    PTR      gvid.daybreakgames.com.
+68.171.37.64.in-addr.arpa.               3600     IN    PTR      ar.daybreakgames.com.
+69.171.37.64.in-addr.arpa.               3600     IN    PTR      psngateway.daybreakgames.com.
+70.171.37.64.in-addr.arpa.               3600     IN    PTR      social.daybreakgames.com.
+71.171.37.64.in-addr.arpa.               3600     IN    PTR      lpad.daybreakgames.com.
+72.171.37.64.in-addr.arpa.               3600     IN    PTR      xblgateway.daybreakgames.com.
+76.171.37.64.in-addr.arpa.               3600     IN    PTR      op-rest.daybreakgames.com.
+77.171.37.64.in-addr.arpa.               3600     IN    PTR      op-ws.daybreakgames.com.
+79.171.37.64.in-addr.arpa.               3600     IN    PTR      steamgateway.daybreakgames.com.
+80.171.37.64.in-addr.arpa.               3600     IN    PTR      nsogateway.daybreakgames.com.
+95.171.37.64.in-addr.arpa.               3600     IN    PTR      notify.daybreakgames.com.
+75.183.37.64.in-addr.arpa.               3600     IN    PTR      sdt-mx1.daybreakgames.com.
+76.183.37.64.in-addr.arpa.               3600     IN    PTR      sdt-mx2.daybreakgames.com.
+
+19 results out of 1536 IP addresses.
+
+                                                                                                                                                                                                                                           
+daybreakgames.com ip blocks:                                                                                                                                                                                                               
+_____________________________                                                                                                                                                                                                              
+                                                                                                                                                                                                                                           
+ 64.37.129.21/32                                                                                                                                                                                                                           
+ 64.37.129.23/32
+ 64.37.171.63/32
+ 64.37.171.64/29
+ 64.37.171.72/32
+ 64.37.171.76/31
+ 64.37.171.79/32
+ 64.37.171.80/32
+ 64.37.171.95/32
+ 64.37.183.75/32
+ 64.37.183.76/32
